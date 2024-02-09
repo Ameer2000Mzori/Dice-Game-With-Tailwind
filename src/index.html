@@ -18,7 +18,10 @@
       id="header"
       class="flex flex-col text-center items-center justify-center w-[100dvw] h-[100dvh] bg-[#2D2D2D]"
     >
-      <div id="header-Wrap" class="">
+      <div
+        id="header-Wrap"
+        class="w-[500px] h-[500px] relative flex flex-row text-center items-center justify-center bg-[#3E3E3E] rounded-lg"
+      >
         <div id="header-Left" class="">
           <div>Player 1</div>
           <div>43</div>
@@ -35,9 +38,11 @@
             <div>0</div>
           </div>
         </div>
-        <button type="button">Restart game</button>
-        <button type="button">Roll dice</button>
-        <button type="button">Hold current points</button>
+        <button class="absolute hidden" type="button">Restart game</button>
+        <button class="absolute hidden" type="button">Roll dice</button>
+        <button class="absolute hidden" type="button">
+          Hold current points
+        </button>
       </div>
     </section>
     <script src="script.js"></script>
