@@ -11,6 +11,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap"
+      rel="stylesheet"
+    />
     <link href="./output.css" rel="stylesheet" />
   </head>
   <body>
@@ -20,24 +26,29 @@
     >
       <div
         id="header-Wrap"
-        class="w-[500px] h-[500px] relative flex flex-row text-center items-center justify-center bg-[#3E3E3E] rounded-lg"
+        class="w-[900px] h-[600px] relative flex flex-row text-center items-center justify-center bg-[#3E3E3E] rounded-lg"
       >
-        <div id="header-Left" class="">
-          <div>Player 1</div>
-          <div>43</div>
+        <div id="header-Left" class="players-container">
           <div>
-            <div>Current</div>
-            <div>0</div>
+            <div class="plater-scores-1">Player 1</div>
+            <div class="plater-scores-1">43</div>
+          </div>
+          <div>
+            <div class="plater-scores-2">Current</div>
+            <div class="plater-scores-2">0</div>
           </div>
         </div>
-        <div id="header-Right" class="">
-          <div>Player 2</div>
-          <div>56</div>
+        <div id="header-Right" class="players-container">
           <div>
-            <div>Current</div>
-            <div>0</div>
+            <div class="plater-scores-1">Player 2</div>
+            <div class="plater-scores-1">56</div>
+          </div>
+          <div>
+            <div class="plater-scores-2">Current</div>
+            <div class="plater-scores-2">0</div>
           </div>
         </div>
+        <img class="absolute hidden" src="./assets/dice-1.png" alt="" />
         <button class="absolute hidden" type="button">Restart game</button>
         <button class="absolute hidden" type="button">Roll dice</button>
         <button class="absolute hidden" type="button">
