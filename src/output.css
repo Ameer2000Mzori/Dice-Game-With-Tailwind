@@ -592,10 +592,6 @@ video {
   height: 100px;
 }
 
-.h-\[600px\] {
-  height: 600px;
-}
-
 .h-\[700px\] {
   height: 700px;
 }
@@ -606,10 +602,6 @@ video {
 
 .w-\[100px\] {
   width: 100px;
-}
-
-.w-\[900px\] {
-  width: 900px;
 }
 
 .w-\[1200px\] {
