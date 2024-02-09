@@ -26,32 +26,40 @@
     >
       <div
         id="header-Wrap"
-        class="w-[900px] h-[600px] relative flex flex-row text-center items-center justify-center bg-[#3E3E3E] rounded-lg"
+        class="w-[1200px] h-[700px] relative flex flex-row text-center items-center justify-center bg-[#3E3E3E] rounded-lg"
       >
-        <div id="header-Left" class="players-container">
+        <div id="header-Left" class="players-container current-Player">
           <div>
-            <div class="plater-scores-1">Player 1</div>
-            <div class="plater-scores-1">43</div>
+            <div class="player-scores-1">Player 1</div>
+            <div class="player-scores-1">43</div>
           </div>
           <div>
-            <div class="plater-scores-2">Current</div>
-            <div class="plater-scores-2">0</div>
+            <div class="player-scores-2">Current</div>
+            <div class="player-scores-2">0</div>
           </div>
         </div>
         <div id="header-Right" class="players-container">
           <div>
-            <div class="plater-scores-1">Player 2</div>
-            <div class="plater-scores-1">56</div>
+            <div class="player-scores-1">Player 2</div>
+            <div class="player-scores-1">56</div>
           </div>
           <div>
-            <div class="plater-scores-2">Current</div>
-            <div class="plater-scores-2">0</div>
+            <div class="player-scores-2">Current</div>
+            <div class="player-scores-2">0</div>
           </div>
         </div>
-        <img class="absolute hidden" src="./assets/dice-1.png" alt="" />
-        <button class="absolute hidden" type="button">Restart game</button>
-        <button class="absolute hidden" type="button">Roll dice</button>
-        <button class="absolute hidden" type="button">
+        <img
+          class="absolute w-[100px] h-[100px]"
+          src="./assets/dice-1.png"
+          alt=""
+        />
+        <button class="buttons-styling Restart-game" type="button">
+          Restart game
+        </button>
+        <button class="buttons-styling Roll-dice" type="button">
+          Roll dice
+        </button>
+        <button class="buttons-styling Hold-current-points" type="button">
           Hold current points
         </button>
       </div>

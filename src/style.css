@@ -14,16 +14,53 @@
   border-radius: 15px;
 }
 
-.plater-scores-1,
-.plater-scores-2 {
-  font-family: 'Protest Strike', 'sans-serif';
-  font-size: 4rem;
-  color: #eaeaea;
+.current-Player {
+  background-color: #d5d5d5;
 }
 
-.plater-scores-2 {
+.player-scores-1,
+.player-scores-2 {
+  font-family: 'Protest Strike', 'sans-serif';
+  font-size: 4rem;
+  color: #8b8b8b;
+}
+
+.player-scores-2 {
   font-size: 2rem;
 }
 
-/* w-[50%] h-[100%] flex flex-col text-center items-center justify-around */
-/* font-protestStrike text-[4rem] text-[#EAEAEA] */
+.buttons-styling {
+  background-color: #ff4b4b;
+  width: 150px;
+  height: 40px;
+  border-radius: 15px;
+  color: white;
+  font-size: 1rem;
+  font-family: 'Protest Strike', 'sans-serif';
+  transition: all 100ms ease-in-out;
+}
+
+.buttons-styling:hover {
+  background-color: #ae2626;
+}
+
+.buttons-styling:active {
+  background-color: #ff7575;
+}
+
+.Restart-game {
+  position: absolute;
+  top: 5rem;
+}
+
+.Roll-dice {
+  position: absolute;
+  bottom: 10rem;
+  background-color: #ffc107;
+}
+
+.Hold-current-points {
+  position: absolute;
+  bottom: 5rem;
+  background-color: #4caf50;
+}
