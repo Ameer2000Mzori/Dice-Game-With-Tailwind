@@ -1,5 +1,3 @@
-// selecting elements
-
 // // buttons
 const rollDiceBtn = document.getElementById('roll-Dice')
 const restartGame = document.getElementById('restart-Game')
@@ -7,6 +5,10 @@ const holdCurrentP = document.getElementById('hold-Current-P')
 
 // // elements
 const diceImg = document.getElementsByClassName('dice-Img')[0]
+
+// title elements
+const playerOneTitle = document.getElementsByClassName('player-One-Title')[0]
+const playerTwoTitle = document.getElementsByClassName('player-Two-Title')[0]
 
 // scores elements
 const playerOneCurrentScore = document.getElementsByClassName(
@@ -33,6 +35,17 @@ let userOnePlaying = true
 // rollDice function
 const rollDice = () => {
   const dice = Math.floor(Math.random() * 6) + 1
+
+  if (userOneScore >= 100 || userTwoScore >= 100) {
+    rollDiceBtn.disabled = true
+    holdCurrentP.disabled = true
+    if (userOneScore >= 100) {
+      playerOneTitle.textContent = 'PLAYER ONE WON'
+    }
+    if (userTwoScore >= 100) {
+      playerTwoTitle.textContent = 'PLAYER TWO WON'
+    }
+  }
 
   if (dice === 1) {
     currentScore = 0
@@ -81,6 +94,13 @@ const holdUserScores = () => {
 }
 
 const restGame = () => {
+  // changing titles
+  playerOneTitle.textContent = 'Player 1'
+  playerTwoTitle.textContent = 'Player 2'
+  // enabling buttons
+  rollDiceBtn.disabled = false
+  holdCurrentP.disabled = false
+  // resting scores
   userOneScore = 0
   userTwoScore = 0
   currentScore = 0
