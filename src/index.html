@@ -11,13 +11,100 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap"
+      rel="stylesheet"
+    />
     <link href="./output.css" rel="stylesheet" />
   </head>
   <body>
-    <h1 class="text-orange-500">
-      START OF PROJECT <i class="fa-solid fa-house"></i>
-    </h1>
-
+    <section
+      id="header"
+      class="flex flex-col text-center items-center justify-center w-[100dvw] h-[100dvh] bg-[#2D2D2D]"
+    >
+      <div
+        id="header-Wrap"
+        class="max-[810px]:w-[700px] max-sm:w-[340px] max-sm:h-[300px] w-[1000px] h-[500px] relative flex flex-row text-center items-center justify-center bg-[#3E3E3E] rounded-lg"
+      >
+        <div id="header-Left" class="players-container current-Player">
+          <div>
+            <div
+              class="player-scores-1 max-[810px]:text-[40px] max-sm:text-sm player-One-Title"
+            >
+              Player 1
+            </div>
+            <div
+              class="player-scores-1 max-[810px]:text-[40px] max-sm:text-sm player-One-Scores-All-Time"
+            >
+              0
+            </div>
+          </div>
+          <div>
+            <div class="player-scores-2 max-[810px]:text-[40px] max-sm:text-sm">
+              Current
+            </div>
+            <div
+              class="player-scores-2 max-[810px]:text-[40px] max-sm:text-sm player-1-current-score"
+            >
+              0
+            </div>
+          </div>
+        </div>
+        <div id="header-Right" class="players-container">
+          <div>
+            <div
+              class="player-scores-1 max-[810px]:text-[40px] max-sm:text-sm player-Two-Title"
+            >
+              Player 2
+            </div>
+            <div
+              class="player-scores-1 max-[810px]:text-[40px] max-sm:text-sm player-Two-Scores-All-Time"
+            >
+              0
+            </div>
+          </div>
+          <div>
+            <div class="player-scores-2 max-[810px]:text-[40px] max-sm:text-sm">
+              Current
+            </div>
+            <div
+              class="player-scores-2 max-[810px]:text-[40px] max-sm:text-sm player-2-current-score"
+            >
+              0
+            </div>
+          </div>
+        </div>
+        <img
+          id="dice-Img"
+          class="absolute w-[100px] h-[100px] mb-5 max-sm:w-[30px] max-sm:h-[30px] dice-Img"
+          src="./assets/dice-1.png"
+          alt=""
+        />
+        <button
+          id="restart-Game"
+          class="buttons-styling Restart-game max-sm:text-[10px] max-sm:w-auto max-sm:h-4 max-sm:px-2"
+          type="button"
+        >
+          Restart game
+        </button>
+        <button
+          id="roll-Dice"
+          class="buttons-styling Roll-dice max-sm:text-[10px] max-sm:h-4 max-sm:w-auto max-sm:px-2 max-sm:bottom-[120px]"
+          type="button"
+        >
+          Roll dice
+        </button>
+        <button
+          id="hold-Current-P"
+          class="buttons-styling Hold-current-points max-sm:text-[10px] max-sm:h-4 max-sm:w-auto max-sm:px-2"
+          type="button"
+        >
+          Hold current points
+        </button>
+      </div>
+    </section>
     <script src="script.js"></script>
   </body>
 </html>

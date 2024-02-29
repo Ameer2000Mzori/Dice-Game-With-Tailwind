@@ -1,0 +1,20 @@
+ here is a suggested color palette:
+
+Background: A dark shade to ensure that the other elements on the screen stand out.
+
+Primary Background: #2D2D2D (Charcoal Gray)
+Secondary Background (for the center section divider): #3E3E3E (Slightly lighter shade of Charcoal Gray)
+Text and Scores: A contrasting color for text to ensure legibility against the dark background.
+
+Text and Scores: #FFFFFF (White) or #EAEAEA (Off White) for better readability
+Buttons and Interactive Elements: A color that pops against the background but also signifies interactivity.
+
+Roll/Dice Button: #FF4B4B (Crimson Red)
+Hold Button: #4CAF50 (Apple Green) - green often signifies 'go' or 'success', making it intuitive for a 'hold' action
+Restart Game Button: #FFC107 (Amber)
+Current Score Indicator: A color that stands out but is different from the buttons to avoid confusion.
+
+Current Indicator: #F2F2F2 (Light Gray) with a subtle shadow to lift it off the background
+Accents and Highlights: Use a brighter color to draw attention to specific elements, like current player or winning state.
+
+Accent/Highlight: #00BCD4 (Sky Blue)
