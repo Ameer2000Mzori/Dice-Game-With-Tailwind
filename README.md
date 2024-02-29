@@ -75,6 +75,11 @@
 - GitHub: [@Ameer2000Mzori](https://github.com/Ameer2000Mzori)
 - LinkedIn: [Ameer Ameen](https://www.linkedin.com/in/ameer-ameen-82314425b/)
 
+👤 **Author2**
+
+- GitHub: [@tuwafula](https://github.com/tuwafula)
+- LinkedIn: [Aggrey Wanjala](https://www.linkedin.com/in/aggrey-wanjala-185bb2255/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
